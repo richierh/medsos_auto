@@ -1,0 +1,1 @@
+# this code will be used for managing the template stock of designing and the configuration

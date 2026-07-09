@@ -1,0 +1,6 @@
+# this is used to run the fastapi server before the execution of the other application is conducted
+# However, in a deployment stages , it should be implemented as a services where it can run automatically
+
+uv run uvicorn api.main:app --host 0.0.0.0 --port 8000
+
+#  

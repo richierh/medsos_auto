@@ -1,0 +1,95 @@
+{
+  "template_name": "motivational",
+
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 45
+  },
+
+  "theme": {
+    "mood": "inspirational",
+    "overlay_color": "#000000",
+    "overlay_opacity": 0.30
+  },
+
+  "font": {
+    "family": "Montserrat-Bold",
+    "color": "#FFFFFF",
+    "accent_color": "#FFD700",
+    "shadow": true
+  },
+
+  "title": {
+    "font_size": 80,
+    "position": {
+      "x": "center",
+      "y": 280
+    },
+    "animation": "zoom_in",
+      "box": {
+    "enabled": true,
+    "color": "#FFD700",
+    "opacity": 0.75,
+    "padding": 18
+  }
+
+  },
+
+  "text_blocks": {
+    "font_size": 58,
+    "max_width": 850,
+    "line_spacing": 1.3,
+    "animation": "fade_up",
+      "position": {
+    "x": "center",
+    "y": 700
+  }
+  },
+
+  "scene": {
+    "duration": 8,
+    "transition": "crossfade"
+  },
+
+  "background": {
+    "preferred_keywords": [
+      "success",
+      "business",
+      "mountain",
+      "sunrise",
+      "achievement",
+      "winner",
+      "leadership"
+    ]
+  },
+
+  "music": {
+    "preferred_moods": [
+      "motivational",
+      "epic",
+      "cinematic"
+    ],
+    "volume": 0.12
+  },
+    "highlight": {
+    "enabled": true,
+    "color": "#FFD700",
+    "opacity": 0.75,
+    "padding": 12
+  },
+
+  "caption": {
+    "enabled": true,
+    "font_size": 54,
+    "color": "#FFFFFF",
+    "background_color": "#000000",
+    "background_opacity": 0.55,
+    "padding": 30,
+    "position": {
+      "x": "center",
+      "y": 1350
+    }
+  }
+}
